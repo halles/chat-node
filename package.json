@@ -1,0 +1,11 @@
+{
+  "name": "chat-eclass",
+  "version": "0.0.1",
+  "author": "eclass",
+  "description": "",
+  "dependencies": {
+    "express": "~4.7.4",
+    "jade": "~1.5.0",
+    "socket.io": "~1.0.6"
+  }
+}

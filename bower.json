@@ -1,0 +1,23 @@
+{
+  "name": "workshop",
+  "version": "0.0.1",
+  "authors": [
+    "Víctor San Martín <vsanmartinm@gmail.com>",
+    "Matías Halles <matias.halles@gmail.com>"
+  ],
+  "description": "rihicgül",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0"
+  }
+}

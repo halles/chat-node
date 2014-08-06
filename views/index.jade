@@ -1,0 +1,28 @@
+extends layout
+
+block content
+	div.container
+		hgroup(class="headline")
+			h1 This is eChat
+			p node.js based chat - workshop by Victor San Martín
+
+		div.intro
+			div.area
+				form
+					input(class="form-control input-lg nickname", placeholder="Enter your nickname", autofocus)
+
+		div.chat
+			hgroup.clearfix
+				h5(class="pull-left") Howdy, <span>{{nickname}}</span>
+				a(href="", class="pull-right") Disconnect
+
+			.room
+				ul
+					li: <cite>eBot</cite> <span>You are welcome</span>
+
+			div.userlist#userlist
+				ul
+
+			.writing
+				form
+					input(class="form-control", placeholder="Write...")

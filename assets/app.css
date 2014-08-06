@@ -1,0 +1,148 @@
+body {
+	font-family: 'Lucida Grande', Arial, sans-serif;
+	background: url('img/cover.jpg') center top no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+input,
+.input-lg {
+	font-family: 'Lucida Grande', Arial, sans-serif !important;
+}
+.container {
+	width: 800px;
+	padding-top: 3%;
+}
+.headline {
+	margin-bottom: 30px;
+	text-align: center;
+	-moz-text-shadow: 0 0 #000;
+	-webkit-text-shadow: 0 0 70px #000;
+	text-shadow: 0 0 70px #000;
+}
+.headline h1 {
+	font-weight: bold;
+}
+.area {
+	padding: 15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.area form {
+	margin: 0;
+	padding: 0;
+}
+.area .input-lg {
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.4);
+}
+.chat {
+	display: none;
+	width: 650px;
+	margin: 0 auto;
+}
+.chat hgroup {
+	padding: 10px;
+	background-color: #5489C4;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.chat hgroup h5 {
+	margin: 0;
+	line-height: 100%;
+	font-weight: bold;
+}
+.chat hgroup a {
+	line-height: 100%;
+	color: #fff;
+}
+.chat .room {
+	height: 250px;
+	overflow: scroll;
+	background: rgba(255, 255, 255, 0.7);
+	width: 450px;
+	float: left;
+}
+.chat ul {
+	padding: 0 10px;
+	margin: 0;
+	list-style-type: none;
+}
+.chat li {
+	margin: 10px 0;
+}
+.chat li cite {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 100%;
+	font-style: italic;
+	color: #5E5E5E;
+}
+.chat li span {
+	display: block;
+	position: relative;
+	padding: 7px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 140%;
+	background: #9C9C9C;
+	word-break: break-all;
+}
+.chat li span:after {
+	content: "";
+	position: absolute;
+	top: -9px;
+	left: 14px;
+	border-style: solid;
+	border-width: 0 8px 9px;
+	border-color: #9C9C9C transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+.chat .writing {
+	padding: 10px;
+	border-top: 1px solid #999;
+	background: rgba(255, 255, 255, 0.7);
+}
+.chat .writing form {
+	margin: 0;
+	padding: 0;
+}
+
+.chat .userlist{
+	height: 250px;
+	overflow: scroll;
+	background: rgba(255, 255, 255, 0.7);
+	width: 200px;
+	float: right;
+}
+.chat .userlist li{
+	color: gray;
+}
+
+.logo {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	width: 90px;
+	height: 24px;
+	background: url('//static.eclass.cl/apps/colaboradores/img/Logos-eClass-Oficial.png') no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+}
+.logo span {
+	display: none;
+}
+.logo:hover {
+	opacity: 1;
+}
+
+.isWriting{
+	color: red;
+	font-weight: bold;
+}
